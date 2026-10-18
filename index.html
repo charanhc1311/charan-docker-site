@@ -1,11 +1,123 @@
-﻿<!DOCTYPE html>
-<html>
+﻿
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Charan - Cloud DevOps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charan's Cloud DevOps Project</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #061b52, #0755b8);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px 8%;
+      font-size: 24px;
+      font-weight: bold;
+      color: #58d7ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 55px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    h1 span { color: #28c9ff; }
+
+    .intro {
+      color: #d6e6ff;
+      font-size: 20px;
+      line-height: 1.7;
+    }
+
+    .skills {
+      margin-top: 50px;
+      padding: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      border: 1px solid #3879d5;
+      border-radius: 18px;
+      background: #08265b;
+    }
+
+    .skill {
+      flex: 1 1 120px;
+      padding: 18px;
+      text-align: center;
+      border-radius: 12px;
+      background: #103775;
+      font-weight: bold;
+    }
+
+    .skill span {
+      display: block;
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #d6e6ff;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 22px;
+      border-radius: 8px;
+      color: #06204f;
+      background: #46d2ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Charan's Cloud DevOps Project!</h1>
-    <p>My first website hosted using Docker and Nginx.</p>
-    <p>Skills: AWS | Linux | Docker | DevOps</p>
+  <header>☁ Charan's Cloud DevOps</header>
+
+  <main>
+    <p>BUILD · DEPLOY · AUTOMATE · SCALE</p>
+
+    <h1>Welcome to<br>
+      <span>Charan's Cloud</span><br>
+      DevOps Project!
+    </h1>
+
+    <p class="intro">
+      My first website hosted using Docker and Nginx.
+      Learning cloud technologies and building practical projects.
+    </p>
+
+    <a href="#skills">Explore My Skills</a>
+
+    <section class="skills" id="skills">
+      <div class="skill"><span>☁️</span>AWS</div>
+      <div class="skill"><span>🐧</span>Linux</div>
+      <div class="skill"><span>🐳</span>Docker</div>
+      <div class="skill"><span>🌐</span>Nginx</div>
+      <div class="skill"><span>♾️</span>DevOps</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Keep Learning | Keep Building | Better Every Day</p>
+    <p>Built by Charan H C</p>
+  </footer>
 </body>
 </html>
